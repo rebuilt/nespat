@@ -25,11 +25,10 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
 
-ul.topnav li {float: right;}
+li {float: right;}
 
-ul.topnav li a {
+li a {
     display: inline-block;
     color: #738086;
     text-align: center;
@@ -38,23 +37,24 @@ ul.topnav li a {
     font-size: 13px;
 }
 
-ul.topnav li a:hover {
+a:hover {
 	border:3px solid #738086;
 	border-width:3px 0 0 0;
 	padding: 17px 20px 20px 20px;
 	
 }
 
-ul.topnav li a.active {
+a.active {
 	border:3px solid #738086;
 	border-width:3px 0 0 0;
 	padding: 17px 20px 20px 20px;
 }
 
-ul.topnav li.icon {
+li.icon {
 	display: none;
 }
 
+}
 
 /* BOT NAV*/
 ul.botnav {
